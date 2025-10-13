@@ -73,7 +73,8 @@ In short, the XOR operation is his *own inverse*, hence is reversible. Knowing a
 
 In this challenge we knew:
 - ***C*** --> the encrypted flag
-- ***A*** --> the first 4 characters of the flag `THM{`  
+- ***A*** --> the first 4 characters of the flag `THM{`
+
 The key, ***B***, was therefore obtainable bei doing **C XOR A = B**. 
 
 ## Understanding XOR, Hex, and Bytes
@@ -83,7 +84,11 @@ Basically the XOR operation works at the *bitwise* level, not at the character r
 
 1. Numeric representation:
     - The first two characters of the encrypted hex string `12...` represent the first byte `0x12` which is `00010010` in binary.
+        - Hex -> Bytes -> Binary
+        - `12` -> `0x12`-> `00010010`
     - The first character of the partial Flag is `b'T'`, which has a hexadecimal ASCII value of `0x54`, or `01010100` in binary.
+        - ASCII -> Hex -> Bytes -> Binary
+        - `T` -> `54` -> `0x54` -> `01010100`
 
 2. The XOR operation is then done bitwise:
 ```bash
