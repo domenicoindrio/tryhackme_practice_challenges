@@ -73,7 +73,7 @@ In short, the XOR operation is his *own inverse*, hence is reversible. Knowing a
 
 In this challenge we knew:
 - ***C*** --> the encrypted flag
-- ***A*** --> the first 4 characters of the flag `THM{`
+- ***A*** --> the first 4 characters of the flag `THM{`  
 The key, ***B***, was therefore obtainable bei doing **C XOR A = B**. 
 
 ## Understanding XOR, Hex, and Bytes
