@@ -1,4 +1,5 @@
-# TryHackMe CTF Collection Vol.1 Summary
+# CTF Collection Vol.1
+# Summary
 This README is a summary of my experience solving my first TryHackMe CTF Collection (and my first CTF overall).
 The goal is to reinforce the knowledge acquired during this challenge.
 
