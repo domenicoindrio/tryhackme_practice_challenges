@@ -1,6 +1,6 @@
 # Corridor
 # Summary
-As hinted in Task 1, this room revolves around IDOR vulnerabilities and hashes. To tackle it, I relied on a couple of Python scripts I had written some time ago. That said, everything could also be solved easily using an online tool like https://www.dcode.fr/en 
+As hinted in Task 1, this room revolves around IDOR vulnerabilities and hashes. To tackle it, I relied on a couple of Python scripts I had written some time ago. That said, everything could also be solved using an online tool like https://www.dcode.fr/en 
 
 > [!NOTE]  
 > A small disclaimer: the Python scripts I used here are not yet optimized, as I’m still acquiring knowledge. However, for learning purposes and for easier CTF challenges, they serve their purpose.
@@ -11,7 +11,7 @@ As hinted in Task 1, this room revolves around IDOR vulnerabilities and hashes. 
 >
 > In this challenge, you will explore potential IDOR vulnerabilities. Examine the URL endpoints you access as you navigate the website and note the hexadecimal values you find (they look an awful lot like a hash, don't they?). This could help you uncover website locations you were not expected to access.
 
-After navigating to the machine's address through Firefox, I was presented with the corridor and its 13 doors.
+After navigating to the machine's address through Firefox, I was presented with the corridor and its 13 doors:
 
 ![Corridor_Home](./Screenshots/Screenshot_01.png)
 
@@ -24,7 +24,7 @@ After pointing to every door, I could see the address of the room and, inside it
 
 ![Door_Hash](./Screenshots/Screenshot_03.png)
 
-Starting from the left side, I noted down the first three Hashes and used a simple Python script (that I already had) to guess (solely on hash length) the hashing algorithm.
+Starting from the left side, I noted down the first three hashes and used a simple Python script (that I already had) to guess (solely on hash length) the hashing algorithm.
 The result was **MD5**. I then checked the page source, found the rest of the hashes, and noted them down in a file.
 
 ![Source_Page](./Screenshots/Screenshot_04.png)
