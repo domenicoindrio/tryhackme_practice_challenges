@@ -5,3 +5,4 @@ A TryHackMe Challenges journal: mostly first-person ramblings on how I solved th
 - [Evil-GPT v2](./Evil-GPT%20v2/README.md)
 - [W1seGuy](./W1seGuy/README.md)
 - [Corridor](./Corridor/README.md)
+- [Pickle Rick](./Pickle%20Rick/README.md)
