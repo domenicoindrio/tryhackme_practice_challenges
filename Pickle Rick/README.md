@@ -1,7 +1,9 @@
 # Pickle Rick
-*This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.*
+### A Rick and Morty CTF. Help turn Rick back into a human!
+#### Level: Easy
+This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.
 
-*Deploy the virtual machine on this task and explore the web application*
+Deploy the virtual machine on this task and explore the web application
 
 ## Exploring the homepage
 The homepage of the web application shows a Rick and Morty themed image and a message from Rick:
@@ -281,3 +283,6 @@ Now the reverse shell behaved like a SSH shell, with autocomplete, CTRL + C func
 At this point, grabbing the Flags/Ingredient was really straightforward and quick.
 
 In the end I close the shell with `Ctrl + D` and typed `reset` in my local one, since it was messy looking.
+
+
+[<-- Home](/README.md)
