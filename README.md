@@ -11,6 +11,6 @@ A TryHackMe Challenges journal: mostly first-person ramblings on how I solved th
 - [Agent Sudo](./Agent%20Sudo/README.md)
 - [RootMe](./RootMe/README.md)
 - [Brooklyn Nine Nine](./Brooklyn%20Nine%20Nine/README.md)
-- [OhSINT](./OhSINT/readme.md)
+- [OhSINT](./OhSINT/README.md)
 - [Confidential](./Confidential/README.md)
 - [Bounty Hacker](./Bounty%20Hacker/README.md)
