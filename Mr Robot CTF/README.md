@@ -49,7 +49,7 @@ Seeing the padding at the end, my first try was decoding it from `base64`:
 Credentials added to notes!
 
 > [!NOTE]  
-> Finding those credentials via the `/license` file is one path. However an alternative way, using the fsocity.dic wordlist for a brute-force attack, is documented in a [Digression Section](#what-about-the-wordlist-fsocitydic) at the end of this journal.
+> Finding those credentials via the `/license` file is one path. However an alternative way, using the fsocity.dic wordlist for a brute-force attack, is documented in a [Digression Section](#after-action-what-about-the-wordlist-fsocitydic) at the end of this journal.
 
 The rest of code 200s revealed nothing more:
 
