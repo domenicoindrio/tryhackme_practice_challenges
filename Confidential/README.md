@@ -36,6 +36,5 @@ After that I could finally scan the QR Code with my phone and saw the flag. This
 ![flag](./Screenshots/07_flag.png)
 
 
+
 [<-- Home](/README.md)
-
-

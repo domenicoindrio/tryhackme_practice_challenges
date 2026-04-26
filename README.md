@@ -16,6 +16,12 @@ A TryHackMe Challenges journal: mostly first-person ramblings on how I solved th
 - [Confidential](./Confidential/README.md)
 - [Bounty Hacker](./Bounty%20Hacker/README.md)
 - [CyberHeroes](./CyberHeroes/README.md)
+- [Intermediate Nmap](./Intermediate%20Nmap/README.md)
+- [LazyAdmin](./LazyAdmin/README.md)
+- [Easy Peasy](./Easy%20Peasy/README.md)
+- [Lo-Fi](./Lo-Fi/README.md)
+- [Ninja Skills](./Ninja%20Skills/README.md)
+- [MD2PDF](./MD2PDF/README.md)
 
 #### Level: Medium
 - [Mr Robot CTF](./Mr%20Robot%20CTF/README.md)

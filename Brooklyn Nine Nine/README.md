@@ -60,4 +60,5 @@ Room down!
 Well, I guess the ftp login was the other way mentioned to solve this room. Infact while reviewing the screenshots, I noticed that the ftp login was an anonymous one! Since I was rolling with the clues found though, I just stayed on Holt's path.
 
 
+
 [<-- Home](/README.md)

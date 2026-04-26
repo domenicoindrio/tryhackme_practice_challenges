@@ -145,4 +145,5 @@ Beyond solving the challenge, I continued gathering information about the concep
 Finding the flag within an unreachable S3 Bucket URL, makes, at this point, even more sense, since this would be the moment an attacker could register the leaked path to hijack the subdomain.
 
 
+
 [<-- Home](/README.md)

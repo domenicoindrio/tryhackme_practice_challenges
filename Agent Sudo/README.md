@@ -178,4 +178,5 @@ After privilege escalation, I changed directory to `/root/` and found a file `ro
 ![root-flag](./Screenshots/Screenshot_12.png)
 
 
+
 [<-- Home](/README.md)

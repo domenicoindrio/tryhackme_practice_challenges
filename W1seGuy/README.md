@@ -120,5 +120,4 @@ When performing XOR on two bytes objects in Python (or other languages), the sys
 
 
 
-
 [<-- Home](/README.md)

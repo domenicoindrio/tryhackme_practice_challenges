@@ -53,4 +53,5 @@ Upon changing the parameter in the URL to `user=admin`, the admin page was rende
 ![IDOR](./screenshots/Screenshot_04.png)
 
 
+
 [<-- Home](/README.md)
